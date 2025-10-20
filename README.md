@@ -115,6 +115,8 @@ O sistema inclui dados de exemplo para:
 - Interface responsiva e intuitiva
 - Performance otimizada para grandes volumes de dados
 
+⚠ O frontend está com dado em mockup devido a falta de tempo e imprevistos durante o projeto.
+
 ## 📃
 [relatorio_produtores.pdf](https://github.com/user-attachments/files/22994625/relatorio_produtores.pdf)
 [relatorio_produtores.xlsx](https://github.com/user-attachments/files/22994617/relatorio_produtores.xlsx)
