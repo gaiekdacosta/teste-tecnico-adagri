@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-800 font-inter;
+}
+
+@layer base {
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+.p-toast {
+    @apply z-50
+}
+
+.p-toast .p-toast-message {
+    @apply p-3 rounded-md m-1 shadow-md;
+}
+
+.p-toast-message-icon {
+    @apply mr-2 mt-1.5 text-[1.5rem];
+}
+
+.p-toast .p-toast-message-success {
+    @apply bg-[#f0f9f4] border border-[#bbf7d0] text-[#166534];
+}
+
+.p-toast .p-toast-message-error {
+    @apply bg-[#fef2f2] border border-[#fecaca] text-[#991b1b];
+}
+
+.p-toast .p-toast-message-warn {
+    @apply bg-[#fefce8] border border-[#fef08a] text-[#ca8a04];
+}
+
+/* Adiciona a classe font-inter ao Tailwind */
