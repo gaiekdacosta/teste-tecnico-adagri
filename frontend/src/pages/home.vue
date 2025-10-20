@@ -269,6 +269,7 @@ import TopBar from '../components/topbar.vue';
 import ExportExcel from "../components/exportExcel.vue";
 import ExportPDF from "../components/exportPDF.vue";
 import api from "../service/api";
+import { Produtores } from '../service/produtores';
 
 export default {
     name: "Home",
@@ -279,7 +280,7 @@ export default {
     },
     data() {
         return {
-            produtores: [],
+            produtores: Produtores,
             filtros: { produtor: "", municipio: "", especie: "" },
             activeProdutor: [],
             activePropriedades: {},
